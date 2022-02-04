@@ -13,7 +13,7 @@ public class Ui_Act : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKey("space"))//스페이스바를 누른다면
+        if (Input.GetKey("A"))//A키를 누른다면
         {
             SceneManager.LoadScene("GameOver");//"GameOver"화면으로 넘어가라
         }
